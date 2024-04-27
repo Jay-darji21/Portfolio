@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Darji</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- Nav-bar Start -->
+    <div class="nav-bar">
+        <div class="left">
+            JD
+        </div>
+        <div class="right" id="nav">
+            <ul>
+                <li>
+                    <a href="#about">
+                        <span>1.</span> About
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="#education">
+                        <span>2.</span> Education
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#project-work">
+                        <span>3.</span> Projects
+                    </a>
+                </li>
+                <li>
+                    <a href="#skills2">
+                        <span>4.</span> Skills
+                    </a>
+                </li>
+                <li>
+                    <a href="#getintouch">
+                        <span>5.</span> Get in touch
+                    </a>
+                </li>
+                <a href="images/resume.png">
+                    <li id="btn">Resume</li>
+                </a>
+
+
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Nav-bar End -->
+
+    <!-- Hero section start -->
+
+    <div class="hero" data-aos="fade-up">
+        <span>Hi, my name is </span>
+        <h1 id="name">Jay Darji</h1>
+        <h1 id="work">I build things for the web</h1>
+        <p>I'm a 1st year student of Information technology at Goverenment Engineering College , Gandhinagar.
+            I started my Web-development journey with Club IDE GECG.
+        </p>
+
+        <a href="images/resume.png"><span id="id">Check out my Resume</span></a>
+    </div>
+
+    <!-- Hero section end -->
+
+    <!-- Side line start -->
+
+    <div class="symbol">
+        <ul>
+
+            <li><a href="https://www.instagram.com/Jay_darji21"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+
+            <li><a href="https://www.facebook.com/profile.php?id=100081710286573&mibextid=ZbWKwL"><i
+                        class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/jay-darji-b6a33a258/"><i class="fa fa-linkedin"
+                        aria-hidden="true"></i></a></li>
+            <li><a href="https://bit.ly/3Yg0Me0"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+            <div class="hr">
+
+            </div>
+        </ul>
+    </div>
+
+    <div class="email">
+        <p style="writing-mode: vertical-rl"><a href="mailto:darjijay214@gmail.com">darjijay214@gmail.com</a></p>
+        <div class="vr">
+
+        </div>
+    </div>
+
+    <!-- Side line end -->
+
+    <!-- About me section start -->
+
+    <div class="about" id="about" data-aos="fade-right">
+        <h1><span>01.</span> About me <div></div>
+        </h1>
+
+
+        <div class="container" data-aos="fade-down-right">
+            <div class="content">
+                <p>Hello,I'm a Jay Darji.I'm a 1st year student of Information technology at Government Engineering
+                    College , Gandhinagar.I have started my Web development journey with club IDE Gecg.<br><br>
+                    Now,I have already improved my html & CSS skills.I can make a designs & website using Html,basic CSS
+                    & Javascript.</p>
+
+                <div class="list1">
+                    <ul>
+                        <li>C programming</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+            <div class="img" data-aos="flip-left">
+                <img src="photo.jpg" alt="">
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- About me section end -->
+
+    <!-- My work section start -->
+
+    <div class="work" id="education">
+        <h1><span>02.</span> Education<div></div>
+        </h1>
+        <div class="skill-container">
+
+
+            <div class="skills">
+
+                <button class="company" id="google" onclick="updateWork(this.id)">B.E</button>
+                <button class="company" id="microsoft" onclick="updateWork(this.id)">HSC</button>
+                <button class="company" id="facebook" onclick="updateWork(this.id)">SSC</button>
+                <button class="company" id="netflix" onclick="updateWork(this.id)">Primary school</button>
+            </div>
+            <div class="description">
+                <h3 id="role"><span> IT Engineering</span></h3>
+                <p id="time-line">August-2022 - Present</p>
+                <p id="desc"></p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- My work section end -->
+
+    <!-- Project Work start -->
+
+    <div class="project-work" id="project-work">
+        <h1><span>03.</span> Somethings I've Built<div></div>
+        </h1>
+
+        <div class="login-form">
+            <div class="photo">
+                <img src="images\Login form.png" alt="">
+            </div>
+            <div class="desc1">
+                <h3>Login Form</h3>
+                <p>I've created this project during my Web-development course.I have use Html & basic CSS for this
+                    page.<br><br><br>
+                    Vs code - Font Awesome - Google fonts</p>
+            </div>
+            <div class="cover1">
+
+            </div>
+        </div>
+
+        <!-- 1st end -->
+        <div class="spotify">
+            <div class="photo2">
+                <img src="images\spotify.png" alt="">
+            </div>
+            <div class="desc2">
+                <h3>Spotify Webpage</h3>
+                <p>I've created spotify webpage same as spotify website using Html & CSS.
+                    <br><br><br>
+                    Vs code - Font awesome - Google fonts
+                </p>
+            </div>
+            <div class="cover2">
+
+            </div>
+        </div>
+
+        <div class="profile">
+            <div class="photo3">
+                <img src="images\portfile.png" alt="">
+            </div>
+            <div class="desc3">
+                <h3>Portfolio</h3>
+                <p>This is my first website , which I have created using Html,CSS & JavaScript.
+                    <br><br><br>
+                    Vs code - Font awesome - Google fonts
+                </p>
+            </div>
+            <div class="cover3">
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Project Work end -->
+
+    <!-- Other Noteworthy Projects start -->
+    <div class="other-projects" id="skills2">
+        <h1>My Skills</h1>
+        <!-- <span>View the archive</span> -->
+
+
+        <div class="notes">
+            <div class="boxes" id="box-1">
+                <h1>C</h1>
+            </div>
+            <div class="boxes" id="box-2">
+
+
+                <h1>Html</h1>
+
+            </div>
+            <div class="boxes" id="box-3">
+                <h1>CSS</h1>
+            </div>
+            <div class="boxes" id="box-4">
+                <h1>JavaScript</h1>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Other Noteworthy Projects end -->
+
+    <!-- Last part start -->
+
+    <div class="getintouch" id="getintouch">
+        <span>04. What's Next ?</span>
+        <h1>Get in touch</h1>
+
+        <p>You can connect with me via E-mail or my social media accounts.</p>
+        <a href="mailto:darjijay214@gmail.com">
+            <div class="touch">
+                <span>Say Hello!</span>
+
+            </div>
+        </a>
+        <div class="media">
+            <a href="https://www.instagram.com/Jay_darji21"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100081710286573&mibextid=ZbWKwL"><i
+                    class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/jay-darji-b6a33a258"><i class="fa fa-linkedin-square"
+                    aria-hidden="true"></i></a>
+            <a href="https://bit.ly/3Yg0Me0"><i class="fa fa-whatsapp" aria-hidden="true"></i></i></a>
+            <a href="mailto:darjijay214@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        </div>
+    </div>
+
+
+    <div class="line">
+
+    </div>
+    <!-- Last part end -->
+
+    <script src="Portfolio.js"></script>
+</body>
+
+</html>
